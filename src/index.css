@@ -1,0 +1,17 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  font-family: 'Inter';
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+}
+
+body{
+  margin: 0;
+}
+
+.customExportModal .ant-modal-body div{
+  display: grid;
+}
